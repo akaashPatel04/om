@@ -6,11 +6,11 @@ const Footer = () => {
     <footer>
       <div className="left">
         <h4>DOWNLOAD OUR APP</h4>
-        <p>Copyrights 2023 &copy; akash</p>
+        <p>Copyrights 2023 &copy; om electronics</p>
       </div>
       <div className="mid">
         <h1>Om Electronics</h1>
-        <p>Everyday is great with some shopping.</p>
+        <p>Quality is our brand.</p>
       </div>
       <div className="right">
         <h4>Follow Us</h4>

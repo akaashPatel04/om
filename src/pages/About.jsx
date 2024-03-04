@@ -1,8 +1,8 @@
 import "../styles/pages/About.css";
 import { GrInstagram } from "react-icons/gr";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { MdMail, MdPhone } from "react-icons/md";
-import me from "../images/me.png";
+import { MdPhone, MdLocationOn } from "react-icons/md";
+import image from "../images/om-electronics-katni.jpg";
 
 const About = () => {
   return (
@@ -15,7 +15,8 @@ const About = () => {
               <div>
                 <p>E-MAIL</p>
                 <a href="mailto:akaashpatel04@gmail.com">
-                  <MdMail className="aboutPageIcons" /> akaashpatel04@gmail.com
+                  <MdLocationOn className="aboutPageIcons" /> Katni Madhya
+                  Pradesh
                 </a>
               </div>
               <div>
@@ -45,29 +46,33 @@ const About = () => {
           </div>
         </div>
         <div className="imgContainer">
-          <img src={me} />
+          <img src={image} />
         </div>
         <div className="aboutMain">
           <div>
             <div className="text">
               <div>
-                <p>A</p>
-                <p>K</p>
-                <p>A</p>
-                <p>S</p>
-                <p>H</p>
+                <p>O</p>
+                <p>M</p>
               </div>
               <div>
-                <p>K</p>
-                <p>U</p>
-                <p>M</p>
-                <p>A</p>
+                <p>E</p>
+                <p>L</p>
+                <p>E</p>
+                <p>C</p>
+                <p>T</p>
                 <p>R</p>
+                <p>O</p>
+                <p>N</p>
+                <p>I</p>
+                <p>C</p>
+                <p>S</p>
               </div>
             </div>
             <p>
-              I weave web wonders, blending front-end flair with back-end magic
-              to create seamless online experiences that stand out. --(MERN)
+              We have all types electronic items that are solid in Quality, Om
+              Electronics store is best store in Katni. We ensure that you get
+              best out of it.
             </p>
             <a href="https://akash-patel04.vercel.app/">
               <button>Visit Me</button>
